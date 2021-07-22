@@ -68,3 +68,24 @@ i {
 footer {
     margin-top: 1cm;
 }
+
+.ModeOfClasses {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ModeOfClasses .card {
+    position: relative;
+    max-width: 700px;
+    height: fit-content;
+    margin: 30px 25px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1cm;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.589);
+}
