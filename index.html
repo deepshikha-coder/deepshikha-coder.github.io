@@ -11,13 +11,55 @@
     <script src="https://kit.fontawesome.com/d3096e185c.js" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="scripts/include.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MYFZ9985RV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-MYFZ9985RV');
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '292511635984250');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=292511635984250&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
     <!-- Header -->
     <div data-include="header.html"></div>
 
-    <!--Homepage-->
+    <!--<div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0&appId=1014840392677121&autoLogAppEvents=1" nonce="lBZaslmr"></script>
+    <div class="fb-login-button" data-width="" data-size="medium" data-button-type="continue_with" data-layout="rounded" data-auto-logout-link="true" data-use-continue-as="true"></div>-->
+
+    <!-- Homepage -->
     <video width="100%" autoplay muted loop>
         <source src="resources/video1.mp4" type="video/mp4">
     </video>
@@ -29,7 +71,7 @@
             lectures with technology rise to blended learning and flipped class rooms ,this type of learning environment can increase learning potential of the students .We at our platform help children to learn anytime anywhere.</p>
     </div>
     <hr>
-    <div class="container-fluid" style="background:rgba(248, 197, 156, 0.425);">
+    <div class="container-fluid" style="background:rgba(248, 197, 156, 0.425); margin-bottom:0.5cm;">
         <div class="container-fluid">
             <h1 style=" text-align: center; ">Skills Tutoring</h1>
             <h4 style="text-align: center; margin: 1cm; ">With pioneer you can learn and ace skills like speaking , writing , drawing and much more. </h4>
@@ -111,26 +153,8 @@
 
     </div>
 
-
-
-
-
-
-
     <!-- Footer -->
     <div data-include="footer.html"></div>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MYFZ9985RV"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'G-MYFZ9985RV');
-    </script>
 </body>
 
 </html>
