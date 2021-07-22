@@ -87,5 +87,5 @@ footer {
     display: flex;
     flex-direction: column;
     border-radius: 1cm;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.589);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.212);
 }
