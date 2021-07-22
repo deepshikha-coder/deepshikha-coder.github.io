@@ -16,7 +16,7 @@
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 5px 15px rgb(243, 150, 27);
+    box-shadow: 0 5px 15px rgb(250, 150, 18);
     transition: 0.3s ease-in-out;
 }
 
