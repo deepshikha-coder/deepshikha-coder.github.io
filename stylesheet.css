@@ -96,12 +96,13 @@ footer {
     height: 60px;
     bottom: 40px;
     right: 40px;
+    z-index: 1;
     justify-content: center;
     background-color: rgb(37, 0, 204);
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    box-shadow: 2px 2px 3px #999;
+    box-shadow: 4px 4px 5px rgb(154, 153, 158);
 }
 
 .float i {
