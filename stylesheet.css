@@ -60,7 +60,7 @@
     height: 18cm;
 }
 
-i {
+.page-footer i {
     margin: 0.3cm;
     margin-top: 00.2cm;
 }
@@ -88,4 +88,41 @@ footer {
     flex-direction: column;
     border-radius: 1cm;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.212);
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    justify-content: center;
+    background-color: rgb(37, 0, 204);
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.float i {
+    margin-top: 22px;
+}
+
+.float h5 {
+    margin-top: 22px;
+    visibility: hidden;
+}
+
+.float:hover {
+    width: 150px;
+    color: white;
+    animation: 0.3s ease-out;
+}
+
+.float:hover i {
+    margin-right: 10px;
+}
+
+.float:hover h5 {
+    visibility: visible;
 }
