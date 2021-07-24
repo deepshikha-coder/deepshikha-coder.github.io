@@ -9,8 +9,8 @@
 
 .Activity .card {
     position: relative;
-    max-width: 300px;
-    height: 230px;
+    max-width: 350px;
+    height: 220px;
     background: #fff;
     margin: 30px 10px;
     padding: 20px 15px;
@@ -81,7 +81,7 @@ footer {
 .ModeOfClasses .card {
     position: relative;
     max-width: 700px;
-    min-height: 100%;
+    min-height: 320px;
     margin: 30px 25px;
     padding: 20px 15px;
     display: flex;
