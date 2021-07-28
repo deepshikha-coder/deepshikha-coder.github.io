@@ -92,7 +92,7 @@ footer {
 
 .float {
     position: fixed;
-    width: 60px;
+    width: 150px;
     height: 60px;
     bottom: 40px;
     right: 40px;
@@ -107,23 +107,9 @@ footer {
 
 .float i {
     margin-top: 22px;
+    margin-right: 10px;
 }
 
 .float h5 {
     margin-top: 22px;
-    visibility: hidden;
-}
-
-.float:hover {
-    width: 150px;
-    color: white;
-    animation: 0.3s ease-out;
-}
-
-.float:hover i {
-    margin-right: 10px;
-}
-
-.float:hover h5 {
-    visibility: visible;
 }
