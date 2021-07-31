@@ -113,3 +113,7 @@ footer {
 .float h5 {
     margin-top: 22px;
 }
+
+.float:hover {
+    color: rgb(205, 50, 50);
+}
